@@ -17,6 +17,7 @@ Features:
 - `npm i`
 - `npm run prod` (if you want only minification: `npm run minify` or none `npm run start`
 `profit!@#!@#@!`
+- As a server admin you can configure your server inside the index.js file, to disable no bloat proxy change nobloatproxy_enabled to false and your UV config is avalible at `path: "/uv/{param*}"`.
 
 ![demo](https://github.com/theogbob/hyprmin-proxy/blob/main/demo.png?raw=true)
 
