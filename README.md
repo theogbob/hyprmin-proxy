@@ -24,6 +24,7 @@ Features:
 ## Acknowledgements
 
 - [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
+- [1Host AdblockList](https://github.com/badmojr/1Hosts)
 
 ## Authors
 
