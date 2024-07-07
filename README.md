@@ -18,6 +18,8 @@ Features:
 - `npm run prod` (if you want only minification: `npm run minify` or none `npm run start`
 `profit!@#!@#@!`
 
+![demo](https://github.com/theogbob/hyprmin-proxy/blob/main/demo.png?raw=true)
+
 
 ## Acknowledgements
 
