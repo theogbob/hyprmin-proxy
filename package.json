@@ -1,0 +1,35 @@
+{
+  "name": "uv-app",
+  "version": "1.0.0",
+  "description": "Hyprmin Ultraviolet instance",
+  "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "minify": "node src/minify.js",
+    "prod": "node src/minify.js && node src/index.js"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "@hapi/inert": "^7.1.0",
+    "@mercuryworkshop/bare-mux": "1.1.2",
+    "@mercuryworkshop/epoxy-transport": "^1.1.0",
+    "@titaniumnetwork-dev/ultraviolet": "^3.1.5",
+    "hapi": "^18.1.0",
+    "htmlparser2": "^9.1.0",
+    "wisp-server-node": "^1.0.6",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.4"
+  }
+}
